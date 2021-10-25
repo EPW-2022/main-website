@@ -35,21 +35,18 @@
     </nav>
    
 
-  <div class= "img-background"><svg width="auto" height="auto" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="1280" height="720" fill="#E56848"/>
-        <path d="M2.5 717.5V2.5H767.077L433.921 717.5H2.5Z" fill="#C5D8AB" stroke="#FDE7B6" stroke-width="5"/>
-        </svg>
+  <div class= "img-background d-flex align-items-center" style="background-repeat: no-repeat; background-image: url('/svg/main-bg.svg'); background-size: cover; height:calc(100vh - 85px)">
    
 
    {{-- try --}}
-   <section class="container mt-5" style="padding:5rem; position: absolute; top: 100px;">
-    <div class="row" style="width: auto">
-      <div class="col text-start">
-        <div class="ps-2">
-        <img width="220" height="211.25" src="/img/epw-logo/logo-red.png" alt="EPW Logo">
+   <section class="container-fluid" >
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <div>
+            <img width="220" height="211.25" src="/img/epw-logo/logo-red.png" alt="EPW Logo" class="img-fluid">
         </div>  
-        <div class="logo-epc " >
-            <svg width="307" height="85" viewBox="0 0 315 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="logo-epc">
+            <svg width="50%" height="50%" viewBox="0 0 315 93" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.00734 11.7748C4.00734 11.7748 46.2526 25.1845 111.431 23.0097C176.61 20.835 229.955 -2.26018 311 5.63971V75.8146C311 75.8146 294.137 67.4006 243.013 73.5218C191.889 79.643 73.9664 101.453 4 79.2469L4.00734 11.7748Z" fill="#FDE7B6"/>
                 <path d="M4.00734 11.7748C4.00734 11.7748 46.2526 25.1845 111.431 23.0097C176.61 20.835 229.955 -2.26018 311 5.63971V75.8146C311 75.8146 294.137 67.4006 243.013 73.5218C191.889 79.643 73.9664 101.453 4 79.2469L4.00734 11.7748Z" stroke="#E56848" stroke-width="8" stroke-miterlimit="10"/>
                 <path d="M70.0773 43.6077L86.7159 43.8226L86.9541 50.1622L86.3781 50.1548C85.51 47.9887 84.5904 46.5047 83.6194 45.7028C82.6486 44.8795 81.214 44.4556 79.3154 44.4311L78.1955 44.4166L78.0678 54.3038L79.1557 54.3179C80.1583 54.3308 81.0057 53.9684 81.698 53.2306C82.3905 52.4715 82.8837 51.4538 83.1775 50.1775L83.6575 50.1836L83.5352 59.6549L82.9912 59.6478C82.6279 58.043 82.12 56.895 81.4676 56.2039C80.8364 55.513 79.9556 55.1603 78.825 55.1457L78.0571 55.1357L77.9244 65.4069L79.1403 65.4226C81.1028 65.4479 82.7743 64.8828 84.1546 63.7272C85.5563 62.5719 86.525 61.0803 87.0607 59.2524L87.7006 59.2606L87.3545 66.2327L69.788 66.0058L69.7971 65.3019L71.6849 65.3263L71.9561 44.336L70.0682 44.3117L70.0773 43.6077Z" fill="#C8684E"/>
@@ -62,25 +59,25 @@
                 </svg>
         </div>
       </div>
-      <div class="col" style="margin-left: 400px">
-            <div style = "margin:0 auto">
+      <div class="col-md-6 d-flex align-items-center" style="padding-top: 1rem 0;">
+            <div style = "margin:10px auto">
                 <div class="mb-3">
                     <label for="username" class="form-label" style="color:white">Username</label>
                     <input type="username" class="form-control" id="username" placeholder="Username" style="margin-bottom:20px;">
                     <label for="password" class="form-label" style="color:white">Password</label>
                     <input type="password" class="form-control" id="password" placeholder="Password">
                 </div>
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-" type="login" style= "background:#424A63; margin-bottom:30px" text-color= "white">
-                <b style= "color: white"> Log in </b>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-" type="login" style= "background:#424A63; margin-bottom:30px" text-color= "white">
+                        <b style= "color: white"> Log in </b>
 
-            </button>
-        </div>
-        <p style="color:white; padding-top:0px; ">
-            Belum mendaftar? 
-            <a style="color: white" href="registrasi"> Daftar sekarang</a>
-        </p>
+                    </button>
+                </div>
+                <p style="color:white; padding-top:0px; ">
+                    Belum mendaftar? 
+                    <a style="color: white" href="registrasi"> Daftar sekarang</a>
+                </p>
+            </div>
       </div>
     </div>
   </section>
