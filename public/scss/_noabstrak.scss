@@ -1,0 +1,84 @@
+.header .foto {
+    margin-top: 2rem;
+}
+
+
+
+.tempat {
+    background-color: $primary-snow;
+    border-radius: 2rem;
+    height: 1000px;
+    margin-top: -70px;
+
+}
+
+.tempat2 {
+    background-color: $primary-event;
+    max-width: 90%;
+    border-radius: 2rem;
+    height: 500px;
+    margin-top: 5rem;
+
+    &-maaf {
+        background-color: $darker-blue;
+        height: 400px;
+        position: relative;
+        top: 10%;
+    }
+
+    &-maaf p {
+        font-family: $font-zilla;
+        color: $primary-event;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+        word-spacing: 2px;
+    }
+
+    &-maaf .semangat {
+        font-family: $font-abril;
+        color: $primary-event;
+    }
+
+}
+
+.greetings {
+    text-align: center;
+
+    &-team {
+        font-family: $font-zilla;
+        font-size: 32px;
+        font-weight: bold;
+        padding-top: 5.5rem;
+        color: $secondary-snow;
+    }
+
+    &-univ {
+        font-family: $font-zilla;
+        font-size: 20px;
+        color: $darker-blue;
+        margin-top: 0.5rem;
+    }
+
+    &-group {
+        font-family: $font-zilla;
+        font-size: 20px;
+        color: $darker-blue;
+        margin-top: 0.5rem;
+    }
+}
+
+.button {
+    margin-top: 1rem;
+    text-align: center;
+
+    button {
+        background: $darker-blue;
+        padding-left: 6rem;
+        padding-right: 6rem;
+
+    }
+
+
+}

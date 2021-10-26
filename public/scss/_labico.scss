@@ -2,7 +2,7 @@
 
 
 .pengembangan {
-    width: 800px;
+    width: 70rem;
     max-width: 100%;
 
     &-judul {
@@ -27,7 +27,7 @@
 
 
 .penelitian {
-    width: 800px;
+    width: 70rem;
     max-width: 100%;
 
     &-judul {
@@ -52,7 +52,7 @@
 }
 
 .penghargaan {
-    width: 800px;
+    width: 70rem;
     max-width: 100%;
 
     &-judul {
@@ -88,11 +88,12 @@
     font-family: $font-abril;
     color: $darker-blue;
     margin-bottom: 1rem;
+    font-size: 42px;
 }
 
 .container-2 p {
     font-family: $font-zilla;
-    font-size: 22px;
+    font-size: 28px;
     margin-top: 35px;
     margin-right: 60px;
     text-align: justify;

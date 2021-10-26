@@ -58,6 +58,9 @@ Route::get('/snow', function () {
     'title' => 'SNOW'
   ]);
 });
+Route::get('/snow/tidak-lolos-abstrak', function () {
+  return view('main.noabstrak', ['title' => 'tidak lolos abstrak']);
+});
 
 Route::get('/registrasi', [PagesController::class, 'registrasi']);
 Route::get('/prapenyisihan', [PagesController::class, 'prapenyisihan']);
