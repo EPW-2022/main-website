@@ -32,11 +32,11 @@
             font-family: $font-abril;
             color: $secondary-blue;
         }
-
     }
 
     .container {
-        a {
+        .scrollToTop {
+            cursor: pointer;
             position: fixed;
             bottom: 10px;
             right: 20px;
@@ -205,11 +205,11 @@
             margin-top: 225px;
 
             .EPC-events {
-                color: #FFEBB0;
+                color: #ffebb0;
                 font-family: $font-abril;
-                font-size: 36px;
+                font-size: 2rem;
                 text-decoration: none;
-                border: 3px solid #FDE7B6;
+                border: 3px solid #fde7b6;
                 box-sizing: border-box;
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -219,11 +219,11 @@
             }
 
             .SNOW-events {
-                color: #FFEBB0;
+                color: #ffebb0;
                 font-family: $font-abril;
-                font-size: 36px;
+                font-size: 2rem;
                 text-decoration: none;
-                border: 3px solid #FDE7B6;
+                border: 3px solid #fde7b6;
                 box-sizing: border-box;
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -233,12 +233,12 @@
             }
 
             .GR-events {
-                color: #FFEBB0;
+                color: #ffebb0;
                 font-family: $font-abril;
-                font-size: 32px;
+                font-size: 2rem;
                 text-align: center;
                 text-decoration: none;
-                border: 3px solid #FDE7B6;
+                border: 3px solid #fde7b6;
                 box-sizing: border-box;
                 padding-top: 16px;
                 padding-bottom: 16px;
@@ -248,11 +248,11 @@
             }
 
             .BE-events {
-                color: #FFEBB0;
+                color: #ffebb0;
                 font-family: $font-abril;
-                font-size: 36px;
+                font-size: 2rem;
                 text-decoration: none;
-                border: 3px solid #FDE7B6;
+                border: 3px solid #fde7b6;
                 box-sizing: border-box;
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -267,7 +267,11 @@
 /* end of events */
 /* epc */
 #epc {
-    background: linear-gradient(92.52deg, #C5D8AB 25%, rgba(197, 216, 171, 0.07) 98.14%);
+    background: linear-gradient(
+        92.52deg,
+        #c5d8ab 25%,
+        rgba(197, 216, 171, 0.07) 98.14%
+    );
     max-width: 100vw;
     min-height: 100vh;
     position: relative;
@@ -303,10 +307,9 @@
                 font-family: $font-abril;
                 z-index: 2;
                 font-size: 128px;
-                color: #FFEBB0;
+                color: #ffebb0;
                 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
                 padding: 48px 0;
-
             }
         }
 
@@ -322,7 +325,6 @@
                 font-weight: 600;
                 color: $color-white;
             }
-
         }
 
         .epc-btn {
@@ -333,18 +335,21 @@
             font-size: 18px;
             background-color: $darker-blue;
             font-family: $font-zilla;
-            color: #FFEBB0;
+            color: #ffebb0;
             filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.25));
             text-decoration: none;
         }
     }
-
 }
 
 /* end of epc */
 /* SNOW */
 #SNOW {
-    background: linear-gradient(92.72deg, #DD949B 26.08%, rgba(221, 148, 155, 0) 98.19%);
+    background: linear-gradient(
+        92.72deg,
+        #dd949b 26.08%,
+        rgba(221, 148, 155, 0) 98.19%
+    );
     max-width: 100vw;
     min-height: 100vh;
     position: relative;
@@ -399,7 +404,6 @@
             backdrop-filter: blur(4px);
         }
 
-
         .snow-btn {
             display: inline-block;
             margin-top: 80px;
@@ -408,18 +412,21 @@
             font-size: 18px;
             background-color: $darker-snow;
             font-family: $font-zilla;
-            color: #FFEBB0;
+            color: #ffebb0;
             filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.25));
             text-decoration: none;
         }
     }
-
 }
 
 /* end of SNOW */
 /* Grand Roadshow */
 #Grand-Roadshow {
-    background: linear-gradient(93.42deg, rgba(253, 231, 182, 1) 25%, rgba(253, 231, 182, 0.07) 119.42%);
+    background: linear-gradient(
+        93.42deg,
+        rgba(253, 231, 182, 1) 25%,
+        rgba(253, 231, 182, 0.07) 119.42%
+    );
     min-height: 100vh;
     max-width: 100vw;
     position: relative;
@@ -449,7 +456,6 @@
                 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
             }
 
-
             .text-grand {
                 position: relative;
                 z-index: 2;
@@ -457,7 +463,7 @@
                 font-style: normal;
                 font-weight: normal;
                 font-size: 88px;
-                color: #FFEBB0;
+                color: #ffebb0;
                 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
                 padding-top: 0;
             }
@@ -489,7 +495,6 @@
             backdrop-filter: blur(4px);
         }
 
-
         .GR-btn {
             display: inline-block;
             margin-top: 80px;
@@ -498,18 +503,21 @@
             font-size: 18px;
             background-color: $darker-event;
             font-family: $font-zilla;
-            color: #FFEBB0;
+            color: #ffebb0;
             filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.25));
             text-decoration: none;
         }
     }
-
 }
 
 /* End of Grand Roadshow */
 /* Big Event */
 #Big-Event {
-    background: linear-gradient(93.22deg, #979FBA 25%, rgba(151, 159, 186, 0.07) 97.93%);
+    background: linear-gradient(
+        93.22deg,
+        #979fba 25%,
+        rgba(151, 159, 186, 0.07) 97.93%
+    );
     min-height: 100vh;
     max-width: 100vw;
     position: relative;
@@ -545,7 +553,7 @@
                 z-index: 2;
                 font-family: $font-abril;
                 font-size: 108px;
-                color: #FFEBB0;
+                color: #ffebb0;
                 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
                 padding: 48px 0;
             }
@@ -565,7 +573,6 @@
             backdrop-filter: blur(4px);
         }
 
-
         .BE-btn {
             display: inline-block;
             margin-top: 80px;
@@ -574,11 +581,10 @@
             font-size: 18px;
             background-color: $darker-blue;
             font-family: $font-zilla;
-            color: #FFEBB0;
+            color: #ffebb0;
             text-decoration: none;
         }
     }
-
 }
 
 /* end of Big Event*/
@@ -631,7 +637,7 @@
 
     #main-definition {
         position: relative;
-        background-color: #FDE7B6;
+        background-color: #fde7b6;
         min-height: 100vh;
 
         .definition-content {
@@ -662,7 +668,7 @@
     }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
     #header {
         min-height: 80vh;
         height: 100vh;
@@ -705,7 +711,6 @@
         .rainbow {
             padding-top: 0px;
             margin-top: 0px;
-
         }
 
         .container.EVENTS {
@@ -834,7 +839,7 @@
     }
 }
 
-@media screen and (max-width:370px) {
+@media screen and (max-width: 370px) {
     #header {
         .header-epw {
             padding-top: 50px;

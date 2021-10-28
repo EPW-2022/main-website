@@ -14,6 +14,14 @@
 
     <link rel="shortcut icon" href="/img/epw-logo/logo-bg-blue.png" type="image/x-icon">
 
+    <link rel="canonical" href="https://epwits.com/">
+    <meta name="canonical" href="https://epwits.com/" />
+    <meta name="description" content="EPW sebagai media pengenalan Teknik Fisika secara umum, keilmuan, keprofesian, dan perkuliahan (prestasi, lingkungan, dan sekitarnya) terhadap masyarakat umum, siswa calon mahasiswa baru, dan siswa SMA secara umum. EPW memberikan motivasi terhadap siswa sma untuk berkuliah dan menjadikan Teknik Fisika sebagai pilihan. EPW memberikan dampak tidak hanya pada peningkatan peminat Teknik Fisika, tetapi juga memberikan dampak bagi lingkungan sekitar." />
+    <meta name="author" content="EPW ITS 2022" />
+    <meta name="keywords" content="EPW,epw,EPW ITS, epw its, EPW ITS 2022, epw its 2022, teknik fisika, teknik fisika its, Surabaya, Jawa Timur" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#424A63" />
+
     <title>EPW 2022 | {{ $title }}</title>
   </head>
   <body>
@@ -37,7 +45,7 @@
         <div class="collapse navbar-collapse flex-lg-grow-0" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="/home">Home</a>
+              <a class="nav-link my-3" href="/">Home</a>
             </li>
             <li class="nav-item text-center">
               <a class="nav-link my-3" href="/about">About</a>
@@ -49,15 +57,15 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item text-center" href="/epc">EPC</a></li>
                 <li><a class="dropdown-item text-center" href="/snow">SNOW</a></li>
-                <li><a class="dropdown-item text-center" href="/">Grand Roadshow</a></li>
-                <li><a class="dropdown-item text-center" href="/">Big Event</a></li>
+                <li><a class="dropdown-item text-center" href="/coming-soon">Grand Roadshow</a></li>
+                <li><a class="dropdown-item text-center" href="/coming-soon">Big Event</a></li>
               </ul>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="/">Merchandise</a>
+              <a class="nav-link my-3" href="/coming-soon">Merchandise</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="/">Login</a>
+              <a class="nav-link my-3" href="/coming-soon">Login</a>
             </li>
           </ul>
         </div>
@@ -69,6 +77,7 @@
 
     {{-- Footer --}}
     <footer class="footer footer-blue">
+      <img src="/svg/footer-wire.svg" class="footer-wire" alt="">
       <div class="container pt-4 pb-2">
         <div class="row align-items-center">
           <div class="col-lg-4 text-center">
@@ -125,6 +134,13 @@
     {{-- End of Footer --}}
     
     {{-- Javascript --}}
+    <!-- jQuery -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
     <script src="/vendor/bootstrap5/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $('.scrollToTop').on('click', function() {
+        $(window).scrollTop(0);
+      });
+    </script>
   </body>
 </html>
