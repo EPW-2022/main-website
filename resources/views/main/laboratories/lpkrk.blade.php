@@ -17,7 +17,7 @@
         <ol class="labo-list ps-4">
             <li>Elektronika</li>
             <li>Pengukuran</li> 
-            <li>Manajemen Riziq</li> 
+            <li>Manajemen Risiko</li> 
             <li>Keandalan</li> 
         </ol>
         <h2 class="labo-section mt-5 mb-4">Penelitian</h2>
