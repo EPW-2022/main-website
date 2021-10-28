@@ -69,5 +69,16 @@
                 line-height: 2rem;
             }
         }
+
+        .labo-img {
+            .ico-1 {
+                height: 186px;
+                max-height: 100%;
+                width: 349px;
+                max-width: 100%;
+                background: url(.png);
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+        }
     }
 }
