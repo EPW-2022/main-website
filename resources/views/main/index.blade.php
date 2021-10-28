@@ -108,8 +108,8 @@
   <div class="container Grand-Roadshow">
   <div class="GR-header">
     <img src="/img/icon-grand-roadshow.png" class="logo-GR" alt="logo-GR">
-    <div class="text-grand text-end">GRAND</div>
-    <div class="text-roadshow text-end">ROADSHOW</div>
+    <div class="text-grand text-end mt-5">GRAND</div>
+    <div class="text-roadshow text-end mt-2 mb-5">ROADSHOW</div>
   </div>
     <div class="definition-GR text-center">
       <p>Rangkaian kegiatan mengunjungi SMA sederajat di seluruh Indonesia untuk mengenalkan Teknik Fisika beserta informasi mengenai keilmuan, keprofesian, dan perkuliahan(Prestasi, Lingkungan dan sekitarnya), dan diakhiri dengan pelaksanaan info session terpusat yang terdiri dari kegiatan webinar tentang teknik fisika dan perkenalan kegiatan Engineering Physics Week 2022.
