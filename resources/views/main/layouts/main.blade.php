@@ -14,6 +14,14 @@
 
     <link rel="shortcut icon" href="/img/epw-logo/logo-bg-blue.png" type="image/x-icon">
 
+    <link rel="canonical" href="https://epwits.com/">
+    <meta name="canonical" href="https://epwits.com/" />
+    <meta name="description" content="EPW sebagai media pengenalan Teknik Fisika secara umum, keilmuan, keprofesian, dan perkuliahan (prestasi, lingkungan, dan sekitarnya) terhadap masyarakat umum, siswa calon mahasiswa baru, dan siswa SMA secara umum. EPW memberikan motivasi terhadap siswa sma untuk berkuliah dan menjadikan Teknik Fisika sebagai pilihan. EPW memberikan dampak tidak hanya pada peningkatan peminat Teknik Fisika, tetapi juga memberikan dampak bagi lingkungan sekitar." />
+    <meta name="author" content="EPW ITS 2022" />
+    <meta name="keywords" content="EPW,epw,EPW ITS, epw its, EPW ITS 2022, epw its 2022, teknik fisika, teknik fisika its, Surabaya, Jawa Timur" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#424A63" />
+
     <title>EPW 2022 | {{ $title }}</title>
   </head>
   <body>
