@@ -77,7 +77,7 @@
       </p>
     </div>
     <div class="text-center">
-      <a href="" class="epc-btn">Detail</a>
+      <a href="/epc" class="epc-btn">Detail</a>
     </div>
   </div>
   <img src="/img/EPC/bg-EPC.jpg" class="epc-nih" alt="epc-nih">
@@ -97,7 +97,7 @@
     </div>
     <div class="text-center">
 
-      <a href="" class="snow-btn">Detail</a>
+      <a href="/snow" class="snow-btn">Detail</a>
     </div>
   </div>
   <img src="/img/SNOW/bg-snow.jpg" class="snow-nih" alt="snow-nih">
@@ -116,7 +116,7 @@
       </p>
     </div>
     <div class="text-center">
-      <a href="" class="GR-btn">Detail</a>
+      <a href="/coming-soon" class="GR-btn">Detail</a>
     </div>
   </div>
   <img src="/img/Grand-Roadshow/bg-grand-roadshow.jpg" class="GR-nih" alt="GR-nih">
@@ -134,7 +134,7 @@
       </p>
     </div>
     <div class="text-center">
-      <a href="" class="BE-btn">Detail</a>
+      <a href="/coming-soon" class="BE-btn">Detail</a>
     </div>
   </div>
   <img src="/img/Big-Event/bg-big-event.jpg" class="BE-nih" alt="BE-nih">
