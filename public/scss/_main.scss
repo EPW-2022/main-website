@@ -865,4 +865,48 @@
             }
         }
     }
+
+    #epc {
+        .container.epc {
+            .epc-header {
+                .epc-title {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+
+    #SNOW {
+        .container.SNOW {
+            .SNOW-header {
+                .text-snow {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+
+    #Grand-Roadshow {
+        .container.Grand-Roadshow {
+            .GR-header {
+                .text-grand {
+                    font-size: 3rem;
+                }
+
+                .text-roadshow {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+
+    #Big-Event {
+        .container.BE {
+            .BE-header {
+                .text-BE {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
 }

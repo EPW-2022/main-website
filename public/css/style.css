@@ -1152,6 +1152,21 @@ footer.footer-blue .copyright {
   #main-theme .theme-title .large-text {
     font-size: 2rem;
   }
+  #epc .container.epc .epc-header .epc-title {
+    font-size: 4rem;
+  }
+  #SNOW .container.SNOW .SNOW-header .text-snow {
+    font-size: 4rem;
+  }
+  #Grand-Roadshow .container.Grand-Roadshow .GR-header .text-grand {
+    font-size: 3rem;
+  }
+  #Grand-Roadshow .container.Grand-Roadshow .GR-header .text-roadshow {
+    font-size: 3rem;
+  }
+  #Big-Event .container.BE .BE-header .text-BE {
+    font-size: 4rem;
+  }
 }
 
 #snow-header {
