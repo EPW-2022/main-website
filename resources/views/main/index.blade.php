@@ -13,7 +13,7 @@
   </div>
 </div>
 <div class="container">
-  <a href=""><img src="/svg/icons/button-to-top.svg" alt="button-to-top"></a>
+  <span class="scrollToTop"><img src="/svg/icons/button-to-top.svg" alt="button-to-top"></span>
 </div>
 </section>
 <!-- end of header -->

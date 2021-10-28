@@ -6,7 +6,7 @@
     <div class="container px-4 px-lg-0 pb-5">
         <h1 class="labo-title text-center py-4">Laboratorium Vibrastik dan Akustik</h1>
         <div class="row align-items-center">
-            <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="col-lg-4 mb-4 mb-lg-0 text-center">
                 <img src="/img/lab-logo/vibrastik.png" class="labo-logo" alt="">
             </div>
             <div class="col-lg-8">

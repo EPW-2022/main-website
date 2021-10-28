@@ -85,118 +85,97 @@
       <hr class="header-line">
     </div>
   </div>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
         <div class="prize-content mx-auto">
-          <h3 class="prize-category text-center">Siswa</h3>
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
             <div class="prize-container">
-              <h4 class="prize-level">LKTI Juara 1</h4>
+              <h4 class="prize-level">Juara 1</h4>
               <p class="prize-value">IDR 4,000,000</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
               <img src="/svg/trophy-epc.svg" alt="">
             </div>
           </div>
-          {{-- <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
-              <h4 class="prize-level">LKTI Juara 2</h4>
-              <p class="prize-value">IDR 2,500,000</p>
-            </div>
-            <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy-epc.svg" alt="">
-            </div>
-          </div>
-          <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
-              <h4 class="prize-level">LKTI Juara 3</h4>
-              <p class="prize-value">IDR 1,500,000</p>
-            </div>
-            <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy-epc.svg" alt="">
-            </div>
-          </div> --}}
         </div>
       </div>
-      {{-- <div class="col-md-6">
+      <div class="col-md-4">
         <div class="prize-content mx-auto">
-          <h3 class="prize-category text-center">Mahasiswa</h3>
-          <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
-              <h4 class="prize-level">LKTI Juara 1</h4>
-              <p class="prize-value">IDR 2,500,000</p>
-            </div>
-            <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy-epc.svg" alt="">
-            </div>
-          </div>
-          <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
-              <h4 class="prize-level">LKTI Juara 2</h4>
-              <p class="prize-value">IDR 1,500,000</p>
-            </div>
-            <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy-epc.svg" alt="">
-            </div>
-          </div>
-          <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
-              <h4 class="prize-level">LKTI Juara 3</h4>
-              <p class="prize-value">IDR 1,000,000</p>
-            </div>
-            <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy-epc.svg" alt="">
-            </div>
-          </div>
-        </div>
-      </div> --}}
-      {{-- <div class="col-md-6">
-        <div class="prize-content mx-auto">
-          <h3 class="prize-category text-center">Prestasi</h3>
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
             <div class="prize-container">
-              <h4 class="prize-level">BEST Poster Mahasiswa</h4>
-              <p class="prize-value">IDR 250,000</p>
-            </div>
-            <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy-epc.svg" alt="">
-            </div>
-          </div>
-          <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
-              <h4 class="prize-level">BEST Poster Siswa</h4>
-              <p class="prize-value">IDR 150,000</p>
+              <h4 class="prize-level">Juara 2</h4>
+              <p class="prize-value">IDR 3,000,000</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
               <img src="/svg/trophy-epc.svg" alt="">
             </div>
           </div>
         </div>
-      </div> --}}
-      {{-- <div class="col-md-6">
+      </div>
+      <div class="col-md-4">
         <div class="prize-content mx-auto">
-          <h3 class="prize-category text-center">Poster</h3>
-          <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
+          <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
             <div class="prize-container">
-              <h4 class="prize-level">BEST Presentasi Mahasiswa</h4>
-              <p class="prize-value">IDR 300,000</p>
+              <h4 class="prize-level">Juara 3</h4>
+              <p class="prize-value">IDR 2,000,000</p>
             </div>
-            <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
-              <img src="/svg/trophy-epc.svg" alt="">
-            </div>
-          </div>
-          <div class="prize-detail ps-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
-              <h4 class="prize-level">BEST Presentasi Siswa</h4>
-              <p class="prize-value">IDR 200,000</p>
-            </div>
-            <div class="prize-trophy left-place d-flex justify-content-center align-items-center">
+            <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
               <img src="/svg/trophy-epc.svg" alt="">
             </div>
           </div>
         </div>
-      </div> --}}
+      </div>
+      <div class="col-md-4">
+        <div class="prize-content mx-auto">
+          <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
+            <div class="prize-container">
+              <h4 class="prize-level">Harapan 1</h4>
+              <p class="prize-value">IDR 500,000</p>
+            </div>
+            <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
+              <img src="/svg/trophy-epc.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="prize-content mx-auto">
+          <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
+            <div class="prize-container">
+              <h4 class="prize-level">Harapan 2</h4>
+              <p class="prize-value">IDR 500,000</p>
+            </div>
+            <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
+              <img src="/svg/trophy-epc.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="prize">
+    <div class="prize-header">
+      <h2 class="prize-title mx-auto text-center">Registrasi</h2>
+      <hr class="header-line">
+      <hr class="header-line">
+      <hr class="header-line">
+    </div>
+  </div>
+  <div class="container px-3">
+    <div class="register mx-auto py-5 px-3 px-md-5">
+      <ol class="register-list">
+        <li class="register-step">Buat akun EPC dengan klik “LOGIN” -> “EPC” dan klik “Daftar sekarang”;</li>
+        <li class="register-step">Masukkan nama tim, serta username dan password akun tim;</li>
+        <li class="register-step">Lengkapi biodata sekolah, ketua, dan anggota tim;</li>
+        <li class="register-step">Unggah pas foto dan scan kartu pelajar ketua dan anggota tim;</li>
+        <li class="register-step">Lakukan pembayaran biaya pendaftaran sesuai ketentuan yang tertera pada formulir;</li>
+        <li class="register-step">Unggah bukti pembayaran pada kolom yang tersedia;</li>
+        <li class="register-step">Periksa seluruh data pada formulir sebelum mencentang kotak pernyataan;</li>
+        <li class="register-step">Klik “Daftar”;</li>
+        <li class="register-step">Silakan menunggu panitia untuk memverifikasi data timmu dalam waktu ... jam</li>
+        <li class="register-step">Cek status pendaftaranmu dengan “LOGIN” menggunakan username dan password timmu.</li>
+      </ol>
     </div>
   </div>
 </section>
@@ -216,7 +195,7 @@
     <div class="row">
       <div class="col-lg-6 text-center text-lg-start">
         <p class="timeline-desc">Pendaftaran (Registrasi)</p>
-        <p class="timeline-date d-block d-lg-none p-0 m-0 mb-5">03/11/2021 - 05/02/2022</p>
+        <p class="timeline-date d-block d-lg-none p-0 m-0 mb-5">05/11/2021 - 05/02/2022</p>
         
         <p class="timeline-desc">Babak Penyisihan</p>
         <p class="timeline-date d-block d-lg-none p-0 m-0 mb-5">22/01/2022</p>
@@ -225,7 +204,7 @@
         <p class="timeline-date d-block d-lg-none p-0 m-0 mb-5">05/02/2022</p>
         
         <p class="timeline-desc">Technical Meeting Semifinal</p>
-        <p class="timeline-date d-block d-lg-none p-0 m-0 mb-5">...</p>
+        <p class="timeline-date d-block d-lg-none p-0 m-0 mb-5">12/02/2022</p>
         
         <p class="timeline-desc">Babak Semifinal</p>
         <p class="timeline-date d-block d-lg-none p-0 m-0 mb-5">19/02/2022</p>
@@ -244,10 +223,10 @@
         </div>
       </div>
       <div class="col-lg-5 d-none d-lg-block">
-        <p class="timeline-date">03/11/2021 - 05/02/2022</p>
+        <p class="timeline-date">05/11/2021 - 05/02/2022</p>
         <p class="timeline-date">22/01/2022</p>
         <p class="timeline-date">05/02/2022</p>
-        <p class="timeline-date">...</p>
+        <p class="timeline-date">12/02/2022</p>
         <p class="timeline-date">19/02/2022</p>
         <p class="timeline-date">19/02/2022</p>
         <p class="timeline-date">20/02/2022</p>

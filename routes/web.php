@@ -20,8 +20,8 @@ use App\Http\Controllers\PagesController;
 */
 
 // FOR MAIN WEBSITE
-Route::get('/', [PagesController::class, 'comingsoon']);
-Route::get('/home', [PagesController::class, 'index']);
+// Route::get('/', [PagesController::class, 'comingsoon']);
+Route::get('/', [PagesController::class, 'index']);
 Route::get('/about', function () {
   return view('main.about', ['title' => 'About TF']);
 });
@@ -59,11 +59,10 @@ Route::get('/snow', function () {
   ]);
 });
 
-Route::get('/registrasi', [PagesController::class, 'registrasi']);
-Route::get('/prapenyisihan', [PagesController::class, 'prapenyisihan']);
-Route::get('/loginepc', function () {
-  return view('main.loginepc', [
-    'title' => 'loginepc'
+// EMPTY STATES
+Route::get('/coming-soon', function () {
+  return view('errors.comingsoon', [
+    'title' => 'Coming Soon'
   ]);
 });
 

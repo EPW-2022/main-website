@@ -1,6 +1,15 @@
 footer.footer-blue {
     background-color: $darker-blue;
     margin-top: -1px;
+    position: relative;
+    .footer-wire {
+        padding: 0 1rem;
+        position: absolute;
+        width: 275px;
+        max-width: 100%;
+        right: 0;
+        bottom: 0;
+    }
     .footer-logo {
         width: 355px;
         max-width: 100%;
