@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg py-0">
       <div class="container">
         <div class="navbar-brand flex-lg-grow-1">
-          <a href="#">
+          <a href="/">
             <img src="/img/epw-logo/logo-white.png" alt="EPW Logo" width="60">
           </a>
         </div>
