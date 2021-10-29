@@ -209,7 +209,7 @@
                 font-family: $font-abril;
                 font-size: 2rem;
                 text-decoration: none;
-                border: 3px solid #fde7b6;
+                border: 3px solid $primary-event;
                 box-sizing: border-box;
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -223,7 +223,7 @@
                 font-family: $font-abril;
                 font-size: 2rem;
                 text-decoration: none;
-                border: 3px solid #fde7b6;
+                border: 3px solid $primary-event;
                 box-sizing: border-box;
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -238,7 +238,7 @@
                 font-size: 2rem;
                 text-align: center;
                 text-decoration: none;
-                border: 3px solid #fde7b6;
+                border: 3px solid $primary-event;
                 box-sizing: border-box;
                 padding-top: 16px;
                 padding-bottom: 16px;
@@ -252,7 +252,7 @@
                 font-family: $font-abril;
                 font-size: 2rem;
                 text-decoration: none;
-                border: 3px solid #fde7b6;
+                border: 3px solid $primary-event;
                 box-sizing: border-box;
                 padding-top: 30px;
                 padding-bottom: 30px;
@@ -267,11 +267,9 @@
 /* end of events */
 /* epc */
 #epc {
-    background: linear-gradient(
-        92.52deg,
-        #c5d8ab 25%,
-        rgba(197, 216, 171, 0.07) 98.14%
-    );
+    background: linear-gradient(92.52deg,
+            #c5d8ab 25%,
+            rgba(197, 216, 171, 0.07) 98.14%);
     max-width: 100vw;
     min-height: 100vh;
     position: relative;
@@ -323,7 +321,7 @@
                 font-family: $font-zilla;
                 font-size: 28px;
                 font-weight: 600;
-                color: $color-white;
+                color: $darker-snow;
             }
         }
 
@@ -345,11 +343,9 @@
 /* end of epc */
 /* SNOW */
 #SNOW {
-    background: linear-gradient(
-        92.72deg,
-        #dd949b 26.08%,
-        rgba(221, 148, 155, 0) 98.19%
-    );
+    background: linear-gradient(92.72deg,
+            #dd949b 26.08%,
+            rgba(221, 148, 155, 0) 98.19%);
     max-width: 100vw;
     min-height: 100vh;
     position: relative;
@@ -395,7 +391,7 @@
                 font-family: $font-zilla;
                 font-size: 28px;
                 font-weight: 600;
-                color: $color-white;
+                color: $darker-snow;
             }
 
             border: 1px solid rgba(242, 242, 242, 0.17);
@@ -422,11 +418,9 @@
 /* end of SNOW */
 /* Grand Roadshow */
 #Grand-Roadshow {
-    background: linear-gradient(
-        93.42deg,
-        rgba(253, 231, 182, 1) 25%,
-        rgba(253, 231, 182, 0.07) 119.42%
-    );
+    background: linear-gradient(93.42deg,
+            rgba(253, 231, 182, 1) 25%,
+            rgba(253, 231, 182, 0.07) 119.42%);
     min-height: 100vh;
     max-width: 100vw;
     position: relative;
@@ -486,7 +480,7 @@
                 font-family: $font-zilla;
                 font-size: 28px;
                 font-weight: 600;
-                color: $color-white;
+                color: $darker-snow;
             }
 
             border: 1px solid rgba(242, 242, 242, 0.17);
@@ -513,11 +507,9 @@
 /* End of Grand Roadshow */
 /* Big Event */
 #Big-Event {
-    background: linear-gradient(
-        93.22deg,
-        #979fba 25%,
-        rgba(151, 159, 186, 0.07) 97.93%
-    );
+    background: linear-gradient(93.22deg,
+            #979fba 25%,
+            rgba(151, 159, 186, 0.07) 97.93%);
     min-height: 100vh;
     max-width: 100vw;
     position: relative;
@@ -563,7 +555,7 @@
             p {
                 font-family: $font-zilla;
                 font-size: 28px;
-                color: $color-white;
+                color: $darker-snow;
                 font-weight: 600;
             }
 
@@ -637,7 +629,7 @@
 
     #main-definition {
         position: relative;
-        background-color: #fde7b6;
+        background-color: $primary-event;
         min-height: 100vh;
 
         .definition-content {
