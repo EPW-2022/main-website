@@ -56,6 +56,16 @@ Route::get('/snow', function () {
     'title' => 'SNOW'
   ]);
 });
+Route::get('/loginsnow', function () {
+  return view('main.loginsnow', [
+    'title' => 'loginsnow'
+  ]);
+});
+Route::get('/abstrak', function () {
+  return view('main.abstraksnow', [
+    'title' => 'abstrak'
+  ]);
+});
 
 Route::get('/registrasi', [PagesController::class, 'registrasi']);
 Route::get('/prapenyisihan', [PagesController::class, 'prapenyisihan']);

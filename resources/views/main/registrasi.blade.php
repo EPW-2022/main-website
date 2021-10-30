@@ -321,17 +321,17 @@
                             <li>5. Lorem ipsum dolor sit amet consectetur adipisicing</li>
                             <li>6. Lorem ipsum dolor sit amet consectetur adipisicing</li>
                         </ol>
-                        <div class="container mt-3">
-                            <div class="row">
-                                <div class="col-md-3"></div>
-                                <div class="col-md-6">
-                                    <input type="file" class="form-control custom-file-input" id="buktipembayaran">
-                                        <span class="plus"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                                                <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/>
-                                            </svg></span>
+                            <div class="container mt-3">
+                                <div class="row">
+                                    <div class="col-md-3"></div>
+                                    <div class="col-md-6">
+                                        <input type="file" class="form-control custom-file-input" id="buktipembayaran">
+                                            <span class="plus"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                                    <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/>
+                                                </svg></span>
+                                    </div>
+                                    <div class="col-md-3"></div>
                                 </div>
-                                <div class="col-md-3"></div>
-                            </div>
                             <div class="row">
                                 <div class="col-md-12 text-center" style="margin-top: 5px;">
                                     Format : .jpg, max. Size: 5 Mb
