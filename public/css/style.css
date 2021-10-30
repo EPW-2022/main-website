@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zilla+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
@@ -2866,6 +2867,50 @@ body .submit-btn button {
   background-color: #FDE7B6;
   font-family: Zilla Slab;
   color: #75282C;
+}
+
+body {
+  background: #DD949B;
+}
+
+body .verif {
+  background: #DD949B;
+  padding-bottom: 5rem;
+}
+
+body .verif img {
+  width: 20%;
+}
+
+@media (min-width: 321px) and (max-width: 450px) {
+  body .verif img {
+    width: 40%;
+  }
+}
+
+body .verif .text {
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  text-align: center;
+  color: #424A63;
+  padding-top: 4rem;
+}
+
+body .verif .text p {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+@media (min-width: 321px) and (max-width: 450px) {
+  body .verif .text {
+    padding-top: 2rem;
+  }
+  body .verif .text p {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
 }
 
 body {

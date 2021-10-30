@@ -61,6 +61,11 @@ Route::get('/loginsnow', function () {
     'title' => 'loginsnow'
   ]);
 });
+Route::get('/verifikasisnow', function () {
+  return view('main.verifsnow', [
+    'title' => 'verifikasisnow'
+  ]);
+});
 Route::get('/abstrak', function () {
   return view('main.abstraksnow', [
     'title' => 'abstrak'
