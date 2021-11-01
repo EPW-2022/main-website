@@ -200,65 +200,27 @@
             }
         }
 
-        .d-flex {
-            flex-wrap: wrap;
+        .row {
             margin-top: 225px;
 
-            .EPC-events {
-                color: #ffebb0;
-                font-family: $font-abril;
-                font-size: 2rem;
-                text-decoration: none;
-                border: 3px solid $primary-event;
-                box-sizing: border-box;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                padding-left: 80px;
-                padding-right: 80px;
-                margin-bottom: 10px;
-            }
+            .col-lg-3.col-md-6 {
 
-            .SNOW-events {
-                color: #ffebb0;
-                font-family: $font-abril;
-                font-size: 2rem;
-                text-decoration: none;
-                border: 3px solid $primary-event;
-                box-sizing: border-box;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                padding-left: 62px;
-                padding-right: 62px;
-                margin-bottom: 10px;
-            }
+                .empat-events {
+                    height: 133px;
+                    max-width: 300px;
+                    padding: 0rem 2rem;
+                    border: 3px solid $primary-event;
+                    box-sizing: border-box;
+                    text-align: center;
 
-            .GR-events {
-                color: #ffebb0;
-                font-family: $font-abril;
-                font-size: 2rem;
-                text-align: center;
-                text-decoration: none;
-                border: 3px solid $primary-event;
-                box-sizing: border-box;
-                padding-top: 16px;
-                padding-bottom: 16px;
-                padding-left: 60px;
-                padding-right: 60px;
-                margin-bottom: 10px;
-            }
-
-            .BE-events {
-                color: #ffebb0;
-                font-family: $font-abril;
-                font-size: 2rem;
-                text-decoration: none;
-                border: 3px solid $primary-event;
-                box-sizing: border-box;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                padding-left: 60px;
-                padding-right: 60px;
-                margin-bottom: 10px;
+                    a {
+                        display: block;
+                        color: #ffebb0;
+                        font-family: $font-abril;
+                        font-size: 2rem;
+                        text-decoration: none;
+                    }
+                }
             }
         }
     }
@@ -583,9 +545,6 @@
 /* responsive */
 @media screen and (max-width: 992px) {
     #header {
-        .header-epw {
-            padding-top: 50px;
-        }
 
         .header-2022 {
             padding-top: 20px;
@@ -608,10 +567,6 @@
     #header {
         min-height: 100vh;
         max-height: 100vh;
-
-        .header-epw {
-            padding-top: 100px;
-        }
 
         .header-2022 {
             padding-top: 20px;

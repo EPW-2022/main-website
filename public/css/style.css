@@ -586,71 +586,26 @@ footer.footer-blue .copyright {
   max-width: 100%;
 }
 
-#events .container.EVENTS .d-flex {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+#events .container.EVENTS .row {
   margin-top: 225px;
 }
 
-#events .container.EVENTS .d-flex .EPC-events {
-  color: #ffebb0;
-  font-family: "Abril Fatface", cursive;
-  font-size: 2rem;
-  text-decoration: none;
+#events .container.EVENTS .row .col-lg-3.col-md-6 .empat-events {
+  height: 133px;
+  max-width: 300px;
+  padding: 0rem 2rem;
   border: 3px solid #fde7b6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 80px;
-  padding-right: 80px;
-  margin-bottom: 10px;
-}
-
-#events .container.EVENTS .d-flex .SNOW-events {
-  color: #ffebb0;
-  font-family: "Abril Fatface", cursive;
-  font-size: 2rem;
-  text-decoration: none;
-  border: 3px solid #fde7b6;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 62px;
-  padding-right: 62px;
-  margin-bottom: 10px;
-}
-
-#events .container.EVENTS .d-flex .GR-events {
-  color: #ffebb0;
-  font-family: "Abril Fatface", cursive;
-  font-size: 2rem;
   text-align: center;
-  text-decoration: none;
-  border: 3px solid #fde7b6;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 60px;
-  padding-right: 60px;
-  margin-bottom: 10px;
 }
 
-#events .container.EVENTS .d-flex .BE-events {
+#events .container.EVENTS .row .col-lg-3.col-md-6 .empat-events a {
+  display: block;
   color: #ffebb0;
   font-family: "Abril Fatface", cursive;
   font-size: 2rem;
   text-decoration: none;
-  border: 3px solid #fde7b6;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
-  margin-bottom: 10px;
 }
 
 /* end of events */
@@ -974,9 +929,6 @@ footer.footer-blue .copyright {
 /* end of Big Event*/
 /* responsive */
 @media screen and (max-width: 992px) {
-  #header .header-epw {
-    padding-top: 50px;
-  }
   #header .header-2022 {
     padding-top: 20px;
     font-size: 56px;
@@ -990,9 +942,6 @@ footer.footer-blue .copyright {
   #header {
     min-height: 100vh;
     max-height: 100vh;
-  }
-  #header .header-epw {
-    padding-top: 100px;
   }
   #header .header-2022 {
     padding-top: 20px;
