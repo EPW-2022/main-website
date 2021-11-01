@@ -95,11 +95,9 @@
             border-radius: 2rem;
             width: 1028px;
             max-width: 100%;
-            .gallery-photo {
-                background-color: grey;
-                width: 100%;
+            .gallery-photo img {
                 height: 170px;
-                border-radius: 1.5rem;
+                border-radius: 1rem;
             }
         }
     }
@@ -129,9 +127,10 @@
             }
             .theme-desc {
                 font-family: $font-zilla;
+                font-style: italic;
                 font-weight: 600;
-                font-size: 1.25rem;
-                line-height: 1.75rem;
+                font-size: 1.75rem;
+                line-height: 2rem;
                 color: $primary-event;
             }
         }
@@ -150,6 +149,18 @@
                 font-size: 1.25rem;
                 line-height: 1.75rem;
                 color: $darker-blue;
+                .subtheme-list {
+                    padding-left: 2rem;
+                    list-style: disc;
+                    .subtheme-item {
+                        font-family: $font-zilla;
+                        font-style: italic;
+                        font-weight: 600;
+                        font-size: 1.75rem;
+                        line-height: 3.5rem;
+                        color: $darker-blue;
+                    }
+                }
             }
         }
     }
@@ -443,6 +454,13 @@
 }
 
 @media screen and (max-width: 576px) {
+    #snow-about {
+        .about {
+            &-gallery {
+                padding: 3rem 2rem;
+            }
+        }
+    }
     #snow-testimony {
         .testimony {
             &-card {

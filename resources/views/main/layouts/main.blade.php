@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="/vendor/bootstrap5/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/vendor/fontawesome-free/css/all.min.css">
+    {{-- Owl Carousel --}}
+    <link rel="stylesheet" href="/vendor/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/vendor/owlcarousel/dist/assets/owl.theme.default.min.css">  
     {{-- CSS --}}
     <link rel="stylesheet" href="/css/style.css">
 
@@ -65,7 +68,7 @@
               <a class="nav-link my-3" href="/coming-soon">Merchandise</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link my-3" href="/coming-soon">Login</a>
+              <a class="nav-link my-3" href="/login">Login</a>
             </li>
           </ul>
         </div>
@@ -136,10 +139,22 @@
     {{-- Javascript --}}
     <!-- jQuery -->
     <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/owlcarousel/dist/owl.carousel.min.js"></script>
     <script src="/vendor/bootstrap5/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       $('.scrollToTop').on('click', function() {
         $(window).scrollTop(0);
+      });
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          loop:true,
+          autoWidth:true,
+          margin:16,
+          items:3,
+          autoplay:true,
+          autoplayTimeout:2000,
+          autoplayHoverPause:true
+        });
       });
     </script>
   </body>

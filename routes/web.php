@@ -49,13 +49,19 @@ Route::get('/rekayasa-energi-dan-pengondisian-lingkungan', function () {
 });
 
 Route::get('/epc', function () {
-  return view('main.epc', [
-    'title' => 'EPC'
+  return view('main.events.epc', [
+    'title' => 'Engineering Physics Challenge'
   ]);
 });
 Route::get('/snow', function () {
-  return view('main.snow', [
-    'title' => 'SNOW'
+  return view('main.events.snow', [
+    'title' => 'Smart Innovation of Writing'
+  ]);
+});
+
+Route::get('/login', function () {
+  return view('main.login', [
+    'title' => 'Login'
   ]);
 });
 
@@ -74,7 +80,7 @@ Route::get('/StaffAnnouncement', [ApplicantController::class, 'staffAnnouncement
 Route::post('/StaffAnnouncement', [ApplicantController::class, 'welcomeparty']);
 
 // FOR AUTHENTICATION
-Route::get('/login', [AdminController::class, 'login'])->middleware('guest')->name('login');
+Route::get('/admin-login', [AdminController::class, 'login'])->middleware('guest')->name('login');
 Route::post('/login', [AdminController::class, 'authenticate']);
 Route::post('/logout', [AdminController::class, 'logout']);
 
