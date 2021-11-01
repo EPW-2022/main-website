@@ -56,11 +56,27 @@
     <div class="events-header">
       <img src="/svg/icons/events-icon.svg" class="events" alt="events">
     </div>
-    <div class="d-flex justify-content-evenly align-items-center">
-      <a href="/epc" class="EPC-events">EPC</a>
-      <a href="/snow" class="SNOW-events">SNOW</a>
-      <a href="" class="GR-events">GRAND<br>ROADSHOW</a>
-      <a href="" class="BE-events">BIG EVENT</a>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-3">
+        <div class="d-flex align-items-center justify-content-center empat-events mx-auto">
+          <a href="/epc" class="EPC-events">EPC</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3">
+        <div class="d-flex align-items-center justify-content-center empat-events mx-auto">
+          <a href="/snow" class="SNOW-events">SNOW</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3">
+        <div class="empat-events d-flex align-items-center justify-content-center mx-auto">
+          <a href="/coming-soon" class="GR-events">GRAND<br>ROADSHOW</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3">
+        <div class="empat-events d-flex align-items-center justify-content-center mx-auto">
+          <a href="/coming-soon" class="BE-events">BIG EVENT</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
