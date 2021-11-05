@@ -59,9 +59,9 @@
 <section id="snow-desc">
   <div class="container pb-5">
     <div class="description">
-      <div class="description-video mx-auto">
-        {{--  --}}
-      </div>
+      {{-- <div class="description-video mx-auto">
+
+      </div> --}}
       <div class="description-theme my-3">
         <div class="row align-items-center">
           <div class="col-md-5 col-lg-3">

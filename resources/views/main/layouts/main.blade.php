@@ -150,7 +150,7 @@
           loop:true,
           autoWidth:true,
           margin:16,
-          items:3,
+          // items:3,
           autoplay:true,
           autoplayTimeout:2000,
           autoplayHoverPause:true

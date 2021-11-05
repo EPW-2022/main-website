@@ -27,27 +27,27 @@
       </p>
     </div>
   </div>
-  <div class="container px-3">
+  {{-- <div class="container px-3">
     <div class="about-gallery mx-auto">
       <div class="row">
         <div class="col-md-4">
           <div class="gallery-photo my-3">
-            {{--  --}}
+
           </div>
         </div>
         <div class="col-md-4">
           <div class="gallery-photo my-3">
-            {{--  --}}
+
           </div>
         </div>
         <div class="col-md-4">
           <div class="gallery-photo my-3">
-            {{--  --}}
           </div>
+
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 </section>
 {{-- End of EPC About --}}
 
@@ -55,9 +55,8 @@
 <section id="epc-desc">
   <div class="container pb-5">
     <div class="description">
-      <div class="description-video mx-auto">
-        {{--  --}}
-      </div>
+      {{-- <div class="description-video mx-auto">
+      </div> --}}
       <div class="description-theme my-3">
         <div class="row align-items-center">
           <div class="col-md-5 col-lg-3">
@@ -249,40 +248,42 @@
     <div class="container mt-5">
       <div class="testimony-card">
         <div class="card-photo">
-          {{--  --}}
+          <img src="/img/EPC/testimoni1.png" class="w-100 p-1" alt="">
         </div>
         <div class="d-flex flex-column-reverse flex-sm-column">
-          <p class="card-content">Smart Inovating of Writing (SNOW) merupakan salah satu sub-event EPW berupa lomba karya tulis ilmiah dari sebuah event tahunan yang diselenggarakan oleh Departemen Teknik Fisika ITS. Kompetisi ini diadakan sebagai ajang penyaluran ide kreatif dan solutif untuk Siswa SMA/Sederajat dan Mahasiswa. Setiap tim terdiri dari 2-3 peserta. Karya yang dikirimkan merupakan karya yang orisinil dan belum pernah dipublikasikan.
+          <p class="card-content">Dengan adanya EPC aku bisa lebih mengenal Teknik Fisika, yang semula aku bingung mau masuk di jurusan apa, eh ternyata ada jurusan Teknik Fisika. Ditambah lagi aku jg suka fisika apalagi ditambah ilmu keteknikan yang dibutuhkan oleh perusahaan. Dengan soal-soal yang relate padan materi SMA, membuat saya dapat mengerjakan serta sistem poin yang memberikan peluang kemenangan yang besar
           </p>
           <p class="card-author mx-auto text-center text-sm-start ms-sm-auto me-sm-0 mt-0 mb-3 mt-sm-3 mb-sm-0">
-            Gilang Rahmat Akbar<br>
-            Snow 2021
+            Raphael Christanto<br>
+            EPC 2021
           </p>
         </div>
       </div>
       <div class="testimony-card">
         <div class="card-photo">
-          {{--  --}}
+          <img src="/img/EPC/testimoni2.png" class="w-100 p-1" alt="">
         </div>
         <div class="d-flex flex-column-reverse flex-sm-column">
-          <p class="card-content">Smart Inovating of Writing (SNOW) merupakan salah satu sub-event EPW berupa lomba karya tulis ilmiah dari sebuah event tahunan yang diselenggarakan oleh Departemen Teknik Fisika ITS. Kompetisi ini diadakan sebagai ajang penyaluran ide kreatif dan solutif untuk Siswa SMA/Sederajat dan Mahasiswa. Setiap tim terdiri dari 2-3 peserta. Karya yang dikirimkan merupakan karya yang orisinil dan belum pernah dipublikasikan.
+          <p class="card-content">Kesan saya mengikuti EPW seru banget, khususnya di EPC. Selain soal soal nya yang menantang, saya juga mendapat insight  baru mengenai Teknik Fisika ITS. Melalui EPC, saya menjadi tahu lebih dalam mengenai lab dan bidang minat di departemen Teknik Fisika ITS.
+            Pesan saya untuk EPW, saya harap EPW kedepannya semakin keren dan banyak inovasi event yang tidak kalah seru di setiap tahunnya
           </p>
           <p class="card-author mx-auto text-center text-sm-start ms-sm-auto me-sm-0 mt-0 mb-3 mt-sm-3 mb-sm-0">
-            Gilang Rahmat Akbar<br>
-            Snow 2021
+            M. Naufal Al Farros<br>
+            EPC 2019
           </p>
         </div>
       </div>
       <div class="testimony-card">
         <div class="card-photo">
-          {{--  --}}
+          <img src="/img/EPC/testimoni3.png" class="w-100 p-1" alt="">
         </div>
         <div class="d-flex flex-column-reverse flex-sm-column">
-          <p class="card-content">Smart Inovating of Writing (SNOW) merupakan salah satu sub-event EPW berupa lomba karya tulis ilmiah dari sebuah event tahunan yang diselenggarakan oleh Departemen Teknik Fisika ITS. Kompetisi ini diadakan sebagai ajang penyaluran ide kreatif dan solutif untuk Siswa SMA/Sederajat dan Mahasiswa. Setiap tim terdiri dari 2-3 peserta. Karya yang dikirimkan merupakan karya yang orisinil dan belum pernah dipublikasikan.
+          <p class="card-content">Menjadi salah satu peserta EPC memberikan dampak yang besar bagi saya. Permasalahan yang diberikan benar-benar merupakan masalah yang sering dijumpai di dunia teknik fisika. Pengalaman dan ilmu yang didapat benar-benar sebanding dengan usaha selama menjalani lomba ini.
+
           </p>
           <p class="card-author mx-auto text-center text-sm-start ms-sm-auto me-sm-0 mt-0 mb-3 mt-sm-3 mb-sm-0">
-            Gilang Rahmat Akbar<br>
-            Snow 2021
+            Chandra Faisal Akbar<br>
+            EPC 2019
           </p>
         </div>
       </div>
