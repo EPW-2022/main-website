@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/vendor/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/vendor/owlcarousel/dist/assets/owl.theme.default.min.css">  
     {{-- CSS --}}
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?modified={{ date("Y-m-d") }}">
 
     <link rel="shortcut icon" href="/img/epw-logo/logo-bg-blue.png" type="image/x-icon">
 
