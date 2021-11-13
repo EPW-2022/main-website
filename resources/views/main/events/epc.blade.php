@@ -86,12 +86,12 @@
   </div>
   <div class="container mt-3">
     <div class="row justify-content-center">
-      <div class="col-md-4">
+      <div class="col-md-12">
         <div class="prize-content mx-auto">
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
+            <div class="prize-container pe-2">
               <h4 class="prize-level">Juara 1</h4>
-              <p class="prize-value">IDR 4,000,000</p>
+              <p class="prize-value">IDR 4,000,000 + FREE PASS</p>
             </div>
             <div class="prize-trophy right-place d-flex justify-content-center align-items-center">
               <img src="/svg/trophy-epc.svg" alt="">
@@ -99,10 +99,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="prize-content mx-auto">
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
+            <div class="prize-container pe-2">
               <h4 class="prize-level">Juara 2</h4>
               <p class="prize-value">IDR 3,000,000</p>
             </div>
@@ -112,10 +112,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="prize-content mx-auto">
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
+            <div class="prize-container pe-2">
               <h4 class="prize-level">Juara 3</h4>
               <p class="prize-value">IDR 2,000,000</p>
             </div>
@@ -125,10 +125,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="prize-content mx-auto">
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
+            <div class="prize-container pe-2">
               <h4 class="prize-level">Harapan 1</h4>
               <p class="prize-value">IDR 500,000</p>
             </div>
@@ -138,10 +138,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="prize-content mx-auto">
           <div class="prize-detail pe-5 d-flex justify-content-center flex-column text-center">
-            <div class="prize-container">
+            <div class="prize-container pe-2">
               <h4 class="prize-level">Harapan 2</h4>
               <p class="prize-value">IDR 500,000</p>
             </div>

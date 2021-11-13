@@ -1849,6 +1849,10 @@ footer.footer-blue .copyright {
   background-color: #c5d8ab;
 }
 
+#epc-prize .prize-content:nth-of-type(1) {
+  width: 400px;
+}
+
 #epc-prize .prize-content {
   width: 330px;
   max-width: 100%;
@@ -1909,6 +1913,10 @@ footer.footer-blue .copyright {
 #epc-prize .prize-content .prize-detail .prize-trophy.left-place {
   right: unset;
   left: -3px;
+}
+
+#epc-prize .prize-content:first-of-type {
+  width: 400px;
 }
 
 #epc-prize .register {

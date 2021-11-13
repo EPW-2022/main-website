@@ -210,6 +210,9 @@
                 background-color: $primary-epc;
             }
         }
+        &-content:nth-of-type(1) {
+            width: 400px;
+        }
         &-content {
             width: 330px;
             max-width: 100%;
@@ -263,6 +266,9 @@
                     left: -3px;
                 }
             }
+        }
+        &-content:first-of-type {
+            width: 400px;
         }
     }
     .register {
