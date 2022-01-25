@@ -140,7 +140,7 @@
         <div class="sponsored-by row text-center">
           <div class="col">
             <h2 class="sponsor-text mt-3">Sponsored by:</h2>
-            <img src="/img/Bank-mandiri.png" class="Bank-mandiri mt-3" alt="Bank-mandiri">
+            <img src="/img/Bank-mandiri.png" class="Bank-mandiri mt-3" alt="Bank-mandiri" height="83px" width="310px">
           </div>
         </div>
       </div>
