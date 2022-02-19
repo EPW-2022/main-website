@@ -2829,20 +2829,28 @@ footer.footer-blue .copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 #big-event-header .header-epimon .Epimon {
   z-index: 2;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#big-event-header .header-mandiri .big-event-title {
+  position: relative;
 }
 
 #big-event-header .header-mandiri .big-event-title .tahun-2022 {
-  vertical-align: baseline;
+  position: absolute;
+  top: -100px;
+  right: 0px;
   width: 310px;
   height: 90px;
 }
 
 #big-event-header .header-mandiri .big-event-title span {
-  position: relative;
   font-family: "Abril Fatface", cursive;
 }
 
@@ -2878,17 +2886,17 @@ footer.footer-blue .copyright {
 }
 
 #big-event-header .garis-bawah:nth-of-type(1) {
-  bottom: 0;
+  bottom: 5rem;
 }
 
 #big-event-header .garis-bawah:nth-of-type(2) {
-  bottom: -5%;
+  bottom: 3rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
 #big-event-header .garis-bawah:nth-of-type(3) {
-  bottom: -9.5%;
+  bottom: 1.4rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -2899,11 +2907,11 @@ footer.footer-blue .copyright {
   background-color: #fde7b6;
   max-width: 100vw;
   min-height: 100vh;
-  max-height: 150vh;
 }
 
 #Description-BE .six-star {
   position: relative;
+  max-width: 100%;
 }
 
 #Description-BE .apa-itu h1 {
@@ -3035,5 +3043,25 @@ footer.footer-blue .copyright {
 
 #speaker .lihat-poster .lihat-poster-btn:hover {
   border: 3px solid #df7833;
+}
+
+/* responsive */
+@media screen and (max-width: 992px) {
+  #big-event-header .header-mandiri .big-event-title {
+    text-align: center;
+  }
+  #big-event-header .header-mandiri .big-event-title .text-satu {
+    font-size: 3.5rem;
+    color: #424a63;
+  }
+  #big-event-header .header-mandiri .big-event-title .text-dua {
+    font-size: 2.5rem;
+    color: #424a63;
+  }
+  #big-event-header .header-mandiri .big-event-title .text-tiga {
+    color: #df7833;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

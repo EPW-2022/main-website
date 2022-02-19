@@ -8,10 +8,10 @@
     <img src="/img/Big-Event/Epimon.png" class="Epimon" alt="Epimon">
     <div class="container-fluid d-flex align-items-center justify-content-center flex-column header-mandiri">
         <h1 class="big-event-title">
-            <img src="/img/logo-2022.png" class="justify-content-end align-items-end align-baseline mb-3 tahun-2022" alt="logo-2022">
+            <img src="/img/logo-2022.png" class="justify-content-end align-items-end align-baseline tahun-2022" alt="logo-2022">
             <span class="text-satu mb-2 d-block min-left">BIG EVENT OF EPW</span>
             <span class="text-dua d-block min-left">Tour With EPW</span>
-            <span class="text-tiga mb-5 d-block min-left">Powered by <img class="Bank-mandiri ms-1" src="/img/Bank-mandiri.png" alt="Bank-mandiri"></span>
+            <span class="text-tiga d-block min-left">Powered by <img class="Bank-mandiri ms-1" src="/img/Bank-mandiri.png" alt="Bank-mandiri"></span>
         </h1>
     </div>
 </div>
@@ -58,7 +58,7 @@
                     <img src="/img/Big-Event/mbak-nadhifa.png" alt="">
                     <p class="mt-3">Nadhifa Aqilla Husna</p>
                     <p>Teknik Fisika ITS 2018</p>
-                    <a href="" class="mt-3 mb-5 more-btn">More</a>
+                    <a href="" class="mt-3 more-btn">More</a>
                 </div>
                 <div class="col-md-5 col-lg-4 col-sm-2">
                     <img src="/img/Big-Event/mbak-sarah.png" alt="">
