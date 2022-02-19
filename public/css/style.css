@@ -2819,4 +2819,221 @@ footer.footer-blue .copyright {
     background: linear-gradient(to bottom, #c5d8ab 58.5%, #fde7b6 58.5%, #fde7b6 59.5%, #dd949b 59.5%);
   }
 }
+
+/* header */
+#big-event-header {
+  overflow-x: hidden;
+  background-color: #fde7b6;
+  max-width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#big-event-header .header-epimon .Epimon {
+  z-index: 2;
+}
+
+#big-event-header .header-mandiri .big-event-title .tahun-2022 {
+  vertical-align: baseline;
+  width: 310px;
+  height: 90px;
+}
+
+#big-event-header .header-mandiri .big-event-title span {
+  position: relative;
+  font-family: "Abril Fatface", cursive;
+}
+
+#big-event-header .header-mandiri .big-event-title .text-satu {
+  font-size: 3.75rem;
+  color: #424a63;
+}
+
+#big-event-header .header-mandiri .big-event-title .text-dua {
+  font-size: 3rem;
+  color: #424a63;
+}
+
+#big-event-header .header-mandiri .big-event-title .text-tiga {
+  color: #df7833;
+  font-size: 2rem;
+}
+
+#big-event-header .header-mandiri .big-event-title .Bank-mandiri {
+  width: 140px;
+  height: 40px;
+}
+
+#big-event-header .garis-bawah {
+  position: absolute;
+  content: "";
+  background-color: #e56848;
+  opacity: 1;
+  margin: 0;
+  height: 10px;
+  width: 100%;
+  left: 0;
+}
+
+#big-event-header .garis-bawah:nth-of-type(1) {
+  bottom: 0;
+}
+
+#big-event-header .garis-bawah:nth-of-type(2) {
+  bottom: -5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#big-event-header .garis-bawah:nth-of-type(3) {
+  bottom: -9.5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+/* DESCRIPTION */
+#Description-BE {
+  overflow-x: hidden;
+  background-color: #fde7b6;
+  max-width: 100vw;
+  min-height: 100vh;
+  max-height: 150vh;
+}
+
+#Description-BE .six-star {
+  position: relative;
+}
+
+#Description-BE .apa-itu h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #424a63;
+}
+
+#Description-BE .deskripsi-BE {
+  border: 1px solid #df7833;
+  border-radius: 15px;
+  padding: 40px 80px;
+  background: #df7833;
+}
+
+#Description-BE .deskripsi-BE p {
+  font-family: "Zilla Slab", serif;
+  font-size: 20px;
+  color: #fde7b6;
+}
+
+#Description-BE .Daftar-btn {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 20px 43px;
+  font-size: 24px;
+  background-color: #424a63;
+  font-family: "Zilla Slab", serif;
+  color: #fde7b6;
+  text-decoration: none;
+}
+
+#Description-BE .Daftar-btn:hover {
+  border: 3px solid #df7833;
+}
+
+#Description-BE .Grand-btn {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 20px 43px;
+  font-size: 24px;
+  background-color: #df7833;
+  font-family: "Zilla Slab", serif;
+  color: #fde7b6;
+  text-decoration: none;
+}
+
+#Description-BE .Grand-btn:hover {
+  border: 3px solid #424a63;
+}
+
+#Description-BE .Closing-btn {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 20px 43px;
+  font-size: 24px;
+  background-color: #df7833;
+  font-family: "Zilla Slab", serif;
+  color: #fde7b6;
+  text-decoration: none;
+}
+
+#Description-BE .Closing-btn:hover {
+  border: 3px solid #424a63;
+}
+
+#speaker {
+  overflow-x: hidden;
+  background-color: #fde7b6;
+  max-width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 300px;
+}
+
+#speaker .prefer {
+  border: 10px solid #df7833;
+  border-radius: 15px;
+  padding: 30px 30px;
+  background-color: #fde7b6;
+}
+
+#speaker .prefer h1 {
+  font-family: "Abril Fatface", cursive;
+  color: #424a63;
+  font-size: 3rem;
+}
+
+#speaker .prefer h3 {
+  font-family: "Abril Fatface", cursive;
+  color: #df7833;
+}
+
+#speaker .pemateri p {
+  font-family: #030314;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#speaker .pemateri .more-btn {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 12px 40px;
+  font-size: 24px;
+  background-color: #424a63;
+  font-family: "Zilla Slab", serif;
+  color: #fde7b6;
+  text-decoration: none;
+}
+
+#speaker .pemateri .more-btn:hover {
+  border: 3px solid #df7833;
+}
+
+#speaker .lihat-poster p {
+  font-family: #030314;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#speaker .lihat-poster .lihat-poster-btn {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 20px 40px;
+  font-size: 24px;
+  background-color: #424a63;
+  font-family: "Zilla Slab", serif;
+  color: #fde7b6;
+  text-decoration: none;
+}
+
+#speaker .lihat-poster .lihat-poster-btn:hover {
+  border: 3px solid #df7833;
+}
 /*# sourceMappingURL=style.css.map */

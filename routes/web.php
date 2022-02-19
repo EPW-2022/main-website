@@ -58,7 +58,11 @@ Route::get('/snow', function () {
     'title' => 'Smart Innovation of Writing'
   ]);
 });
-
+Route::get('/big-event', function () {
+  return view('main.events.big-event', [
+    'title' => 'BIG EVENT'
+  ]);
+});
 Route::get('/login', function () {
   return view('main.login', [
     'title' => 'Login'
