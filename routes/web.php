@@ -63,6 +63,11 @@ Route::get('/big-event', function () {
     'title' => 'BIG EVENT'
   ]);
 });
+Route::get('/big-event/register', function () {
+  return view('main.events.regis-be-1', [
+    'title' => 'BIG EVENT'
+  ]);
+});
 Route::get('/login', function () {
   return view('main.login', [
     'title' => 'Login'

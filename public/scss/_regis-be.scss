@@ -1,0 +1,139 @@
+body {
+    background-color: $primary-color;
+    padding-bottom: 50px;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.heading {
+    text-align: center;
+
+    .header-1 {
+        color: $font-color-1;
+        font-family: $font-header;
+        font-size: 48px;
+    }
+
+    .header-2 {
+        font-size: 28px;
+        font-family: $font-header;
+        color: $font-color-2;
+        line-height: 30px;
+        margin: 0;
+
+        .row {
+            --bs-gutter-x: -380px;
+            vertical-align: auto;
+        }
+
+        .text {
+            padding: 0;
+        }
+
+        .gambar {
+            padding: 0;
+            padding-left: 5px;
+            margin-top: -13px;
+        }
+    }
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+
+    &-background {
+        padding-top: 20px;
+        width: 672px;
+        height: 92px;
+        border-radius: 20px;
+        background-color: $font-color-2;
+        color: $primary-color;
+        font-family: $font-secondary;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    a {
+        color: $primary-color;
+    }
+}
+
+.register-2 {
+    display: flex;
+    justify-content: center;
+
+    &-background {
+        padding-top: 20px;
+        width: 672px;
+        height: 161px;
+        border-radius: 20px;
+        background-color: $font-color-2;
+        color: $primary-color;
+        font-family: $font-secondary;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    a {
+        color: $primary-color;
+    }
+}
+
+.form {
+    b {
+        color: $font-color-1;
+    }
+
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-family: $font-secondary;
+
+    .line {
+        display: inline-block;
+        border-bottom: 1px solid black;
+    }
+
+    .form-control {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: white;
+        border-color: white;
+    }
+
+    label {
+        color: $font-color-1;
+        font-weight: 500;
+    }
+
+    .form-select {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: none;
+    }
+
+    .success {
+        color: $font-color-1;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+
+    button {
+        font-size: 18px;
+        background-color: $secondary-color;
+        border-radius: 15px;
+        border: 5px #DF7833 solid;
+        color: $primary-color;
+        font-family: $font-secondary;
+        font-weight: 600;
+        padding: 12px 35.7875px;
+    }
+}
